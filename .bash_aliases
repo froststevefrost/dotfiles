@@ -21,7 +21,4 @@ alias vi="vim"
  alias update='sudo apt update && sudo apt upgrade'
  alias lsblk='lsblk -e 7'
  alias editbash='vim ~/.bashrc && . ~/.bashrc'
- alias editalias='vim ~/.bash_aliases && . ~/.bash_aliases'
- alias pi='ssh steve@pihole'
- alias nas='ssh steve@frost-nas'
  alias clear='clear; printf "\n\t\t${RED}Some aliases:${NC}\n"; alias | grep -vE "cp|\sl[a-z]|mv|rm|\sl=|vi=|clear|grep=" | sed "s/alias //g" | cut -d"=" -f1 | pr -2 -t; echo ""'
